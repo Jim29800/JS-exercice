@@ -9,11 +9,11 @@ console.log(array);
 
 array[4].push("Citron");
 console.log(array);
-// exercice 10
+// exercice 10 suppression
 
 array.splice(1,1);
 console.log(array);
-// exercice 11
+// exercice 11 ajout
 
-array[2]="Poire";
+array.splice(2,0,"Poire");
 console.log(array);
