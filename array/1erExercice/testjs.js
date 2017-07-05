@@ -9,7 +9,7 @@ console.log(array[3])
 
 var mois = ["janvier","février","mars","avril","mais","juin","juillet","aout","septembre","octobre","novembre","décembre"];
 
-console.log(mois.join());
+console.log(mois);
 //exercie 2
 
 console.log(mois[2]);
@@ -26,4 +26,7 @@ console.log(mois[7]);
 
 // exercice 6
 
-console.log(mois.join());
+
+for (var i = 0; i < mois.length; i++) {
+	console.log(mois[i]);
+};
