@@ -33,3 +33,19 @@ function deuxNombres(a,b){
 	}
 };
 deuxNombres(4,4);
+
+// exercice 5
+
+function nombreMot(chiffre,mot) {
+	return chiffre + mot;
+};
+console.log(2 + "mots")
+
+// exercice 6
+
+function presentation(nom,prenom,age){
+	return "Bonjour " + nom +" " + prenom + " ,tu as " + age + " ans.";
+}
+console.log(presentation("mon nom","et mon prenom",250));
+
+// exercice 7
